@@ -30,6 +30,7 @@ function Form() {
     console.log(errors)
 
     const formSubmit = (data) => {
+        alert("reservation done successfully...")
         console.table(data)
     }
 
